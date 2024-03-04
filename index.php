@@ -8,7 +8,13 @@ class Production
     public $language;
 
     public $vote;
+    
+    public function getname()
+    {
+        return $this->title;
+    }
 }
+
 
 $dexter = new Production();
 $dexter->title = "Dexter";
@@ -31,4 +37,4 @@ $gomorra->language = "Italian";
 $gomorra->vote = "9.5";
 
 
-var_dump($gomorra);
+var_dump($dexter->getname());
