@@ -21,5 +21,10 @@ class TVSeries extends Production{
     {
         return $this->season;
     }
+    public function getepisode()
+    {
+        return $this->episode;
+    }
+
 
 }

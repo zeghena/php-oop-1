@@ -1,7 +1,7 @@
 <?php
 
 
-class Movie
+class Movie extends Production
 {
     public $profit;
 
@@ -9,8 +9,8 @@ class Movie
 
 
 
-    function __construct($profit, $duration)
-    {
+   public function __construct($profit, $duration,$title,$language,$vote){
+    parent::__construct($title,$language,$vote);
         $this->profit = $profit;
         $this->duration = $duration;
     }
