@@ -37,9 +37,6 @@ class Production
 
 
 $dexter = new Production("Dexter","English","8");
-$dexter->title = "Dexter";
-$dexter->language = "English";
-$dexter->vote = "8";
 
 $braking_bad = new Production("Braking_Bad","Spanish","9");
 $braking_bad->title = "Braking_Bad";
@@ -68,4 +65,4 @@ echo "Voto: " . $dexter->getVote() . "<br><br>";
 echo "Titolo: " . $breaking_bad->getTitle() . "<br>";
 echo "Lingua: " . $breaking_bad->getLanguage() . "<br>";
 echo "Voto: " . $breaking_bad->getVote() . "<br>";
-?>
+
