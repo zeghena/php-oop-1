@@ -58,11 +58,11 @@ $dexter = new Production("Dexter", "English", 8);
 $breaking_bad = new Production("Breaking Bad", "Spanish", 9);
 
 // Stampa i valori dei due oggetti Production
-// echo "Titolo: " . $dexter->getTitle() . "<br>";
-// echo "Lingua: " . $dexter->getLanguage() . "<br>";
-// echo "Voto: " . $dexter->getVote() . "<br><br>";
+echo "Titolo: " . $dexter->getTitle() . "<br>";
+echo "Lingua: " . $dexter->getLanguage() . "<br>";
+echo "Voto: " . $dexter->getVote() . "<br><br>";
 
-// echo "Titolo: " . $breaking_bad->getTitle() . "<br>";
-// echo "Lingua: " . $breaking_bad->getLanguage() . "<br>";
-// echo "Voto: " . $breaking_bad->getVote() . "<br>";
+echo "Titolo: " . $breaking_bad->getTitle() . "<br>";
+echo "Lingua: " . $breaking_bad->getLanguage() . "<br>";
+echo "Voto: " . $breaking_bad->getVote() . "<br>";
 

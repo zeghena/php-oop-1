@@ -17,11 +17,11 @@ class TVSeries extends Production{
     
    
     
-    public function getseason()
+    public function getSeason()
     {
         return $this->season;
     }
-    public function getepisode()
+    public function getEpisode()
     {
         return $this->episode;
     }
@@ -36,9 +36,9 @@ echo "Lingua: " . $breaking_bad->getLanguage() . "<br>";
 
 echo "Voto: " . $breaking_bad->getVote() . "<br>";
 
-echo "Stagione: " . $breaking_bad->getseason() . "<br>";
+echo "Stagione: " . $breaking_bad->getSeason() . "<br>";
 
-echo "Episodio: " . $breaking_bad->getepisode() . "<br>";
+echo "Episodio: " . $breaking_bad->getEpisode() . "<br>";
 
 var_dump( $breaking_bad->getSeason() );
 
