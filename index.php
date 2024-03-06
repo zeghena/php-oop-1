@@ -38,10 +38,10 @@ class Production
 
 $dexter = new Production("Dexter","English","8");
 
-$braking_bad = new Production("Braking_Bad","Spanish","9");
-$braking_bad->title = "Braking_Bad";
-$braking_bad->language = "Spanish";
-$braking_bad->vote = "9";
+$breaking_bad = new Production("Braking_Bad","Spanish","9");
+$breaking_bad->title = "Braking_Bad";
+$breaking_bad->language = "Spanish";
+$breaking_bad->vote = "9";
 
 $true_detective = new Production("True_Detective","English","10");
 $true_detective->title = "True_Detective";
@@ -58,11 +58,11 @@ $dexter = new Production("Dexter", "English", 8);
 $breaking_bad = new Production("Breaking Bad", "Spanish", 9);
 
 // Stampa i valori dei due oggetti Production
-echo "Titolo: " . $dexter->getTitle() . "<br>";
-echo "Lingua: " . $dexter->getLanguage() . "<br>";
-echo "Voto: " . $dexter->getVote() . "<br><br>";
+// echo "Titolo: " . $dexter->getTitle() . "<br>";
+// echo "Lingua: " . $dexter->getLanguage() . "<br>";
+// echo "Voto: " . $dexter->getVote() . "<br><br>";
 
-echo "Titolo: " . $breaking_bad->getTitle() . "<br>";
-echo "Lingua: " . $breaking_bad->getLanguage() . "<br>";
-echo "Voto: " . $breaking_bad->getVote() . "<br>";
+// echo "Titolo: " . $breaking_bad->getTitle() . "<br>";
+// echo "Lingua: " . $breaking_bad->getLanguage() . "<br>";
+// echo "Voto: " . $breaking_bad->getVote() . "<br>";
 
